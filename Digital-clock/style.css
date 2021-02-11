@@ -1,0 +1,76 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blueviolet;
+  align-text: center;
+}
+
+#digital {
+  color: #fff;
+  background: #10101E;
+  font-family: "Segoe UI", sans-serif;
+  width: 340px;
+  padding: 15px 10px;
+  border: 3px solid #2E94E3;
+  border-radius: 5px;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, rgba(255, 255, 255, 0.1));
+  transition: 0.5s;
+  transition-property: background, box-shadow;
+
+}
+.digital:hover{
+  background: #2ee364;
+  box-shadow: 0 0 30px #2E94E3;
+}
+
+#clock1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-text: center;
+  font-size: 100px;
+}
+
+.clock0 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-text: center;
+  font-size: 30px;
+  font-weight: 1rem;
+}
+
+#clock2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-text: center;
+  font-size: 30px;
+}
+
+#btn1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-text: center;
+  margin-top: 30px;
+}
+
+#bt1 {
+  margin-left: 20px;
+  padding: 5px;
+  color:black;
+}
+
+#bt2 {
+  margin-left: 20px;
+  padding: 5px;
+  color:black;
+}
